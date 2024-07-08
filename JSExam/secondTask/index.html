@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="filter-gallery">
+        <div class="filter-gallery__container">
+          <div class="filter-gallery__result">
+            <img class="filter-gallery__image" src="https://lychee.skillbox.cc/uploads/original/94/c7/9a04d78376a570220b37f87e7230.jpg" height="350" width="600">
+          </div>
+      
+          <fieldset class="filter-gallery__controls">
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-none" value="none" checked>
+            <label class="filter-gallery__label" for="filter-none">
+              <div class="filter-gallery__preview"></div>
+              Оригинал
+            </label>
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-chrome" value="chrome">
+            <label class="filter-gallery__label filter-gallery__label--chrome" for="filter-chrome">
+              <div class="filter-gallery__preview"></div>
+              Хром
+            </label>
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-sepia" value="sepia">
+            <label class="filter-gallery__label filter-gallery__label--sepia" for="filter-sepia">
+              <div class="filter-gallery__preview"></div>
+              Сепия
+            </label>
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-marvin" value="marvin">
+            <label class="filter-gallery__label filter-gallery__label--marvin" for="filter-marvin">
+              <div class="filter-gallery__preview"></div>
+              Марвин
+            </label>
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-phobos" value="phobos">
+            <label class="filter-gallery__label filter-gallery__label--phobos" for="filter-phobos">
+              <div class="filter-gallery__preview"></div>
+              Фобос
+            </label>
+      
+            <input class="visually-hidden filter-gallery__input" type="radio" name="filter" id="filter-heat" value="heat">
+            <label class="filter-gallery__label filter-gallery__label--heat" for="filter-heat">
+              <div class="filter-gallery__preview"></div>
+              Зной
+            </label>
+          </fieldset>
+        </div> 
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
